@@ -1,0 +1,185 @@
+.bg {
+    background-image: url(nn.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+.nav {
+    margin-left: 750px;
+    margin-top: 40px;
+}
+
+.nav a {
+    text-align: left;
+    text-decoration: none;
+    background-color: transparent;
+    color: antiquewhite;
+    margin-top: 20px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 32px;
+}
+
+nav a:hover {
+    color: aqua;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: rgb(158, 40, 174);
+    border-style: double;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.p1,
+.p3,
+.p5,
+.p7,
+.p9 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: rgb(237, 240, 243);
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p2,
+.p4,
+.p6,
+.p8 {
+    color: rgb(227, 238, 239);
+    font-size: larger;
+    margin-left: 45px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p1 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-fill-mode: forwards;
+}
+
+.p2 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p3 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p4 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p5 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p6 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p7 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p8 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.p9 {
+    overflow: hidden;
+    border-right: .15em solid rgb(40, 106, 199);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    animation-delay: 17s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: none;
+    }
+}

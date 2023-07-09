@@ -1,0 +1,137 @@
+    .bg {
+        background-image: url(nn.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0%;
+    }
+    
+    .desc {
+        text-align: left;
+        color: aliceblue;
+        background-color: transparent;
+        text-shadow: 10px;
+        text-decoration: none;
+        padding-top: 10px;
+        margin-left: 80px;
+        margin-top: 0px;
+        padding-left: 100px;
+    }
+    
+    .desc h3 {
+        font-size: 50px;
+    }
+    
+    .desc h1 {
+        font-size: 90px;
+    }
+    
+    .nav {
+        margin-left: 750px;
+        margin-top: 40px;
+    }
+    
+    .nav a {
+        text-align: left;
+        text-decoration: none;
+        background-color: transparent;
+        color: antiquewhite;
+        margin-top: 20px;
+        margin: 30px;
+        padding: 20px;
+        font-size: 32px;
+    }
+    
+    nav a:hover {
+        color: aqua;
+        background-color: transparent;
+        border-radius: 8px;
+        border-color: rgb(158, 40, 174);
+        border-style: double;
+    }
+    
+    .btn {
+        background-color: transparent;
+        border-radius: 8px;
+        width: max-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-decoration: none;
+        color: aliceblue;
+        box-sizing: content-box;
+        border-color: rgb(194, 45, 142);
+        border-style: double;
+    }
+    
+    .btn:hover {
+        background-color: rgb(190, 157, 224);
+        color: rgb(167, 187, 224);
+    }
+    
+    .btn a {
+        text-decoration: none;
+        color: azure;
+    }
+    
+    .btn i {
+        size: 60px;
+    }
+    
+    .p1 {
+        text-align: center;
+    }
+    
+    .h1 {
+        overflow: hidden;
+        border-right: .15em solid rgb(40, 106, 199);
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    
+    .h2 {
+        overflow: hidden;
+        border-right: .15em solid rgb(40, 106, 199);
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+    
+    .h3 {
+        overflow: hidden;
+        border-right: .15em solid rgb(40, 106, 199);
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+    
+    @keyframes typing {
+        0% {
+            opacity: 0;
+            width: 0;
+        }
+        100% {
+            opacity: 1;
+            width: 100%;
+        }
+    }
+    
+    @keyframes blink-caret {
+        from,
+        to {
+            border-color: transparent
+        }
+        50% {
+            border-color: none;
+        }
+    }

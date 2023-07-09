@@ -1,0 +1,67 @@
+.bg {
+    background-image: url(nn.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+.nav {
+    margin-left: 750px;
+    margin-top: 40px;
+}
+
+.nav a {
+    text-align: left;
+    text-decoration: none;
+    background-color: transparent;
+    color: antiquewhite;
+    margin-top: 20px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 32px;
+}
+
+nav a:hover {
+    color: aqua;
+    border-radius: 8px;
+    border-color: rgb(158, 40, 174);
+    border-style: double;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 100px;
+    margin-top: 90px;
+}
+
+.link {
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a {
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+.link a i {
+    font-size: 100px;
+    color: antiquewhite;
+    padding: 100px;
+    border-radius: 8px;
+    display: inline-block;
+    box-sizing: content-box;
+    border: 5px solid rgb(144, 42, 142);
+    align-items: center;
+}
