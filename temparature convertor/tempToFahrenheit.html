@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Convert temparature celsius to fahrenheit
+    </title>
+
+
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="tempToFahrenheit.html">Celsius to Fahrenheit</a>
+        <a href="tempToCelsius.html">Fahrenheit to Celsius</a>
+
+    </div>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form>
+            <h2>Temparature Converter</h2>
+            <div class="inputbox">
+                <input type="number" required="required" id="temp">
+                <span>temparature in Celsius</span>
+                <i></i>
+            </div>
+            <button type="button" onclick="TemparatureConverter(event)">Convert</button><br><br>
+            <span class="span">Temparature to Fahrenheit</span>
+            <div class="answer" id="result"></div>
+        </form>
+
+    </div>
+    <br><br>
+    <div class="link1">
+
+        <a href="tempToCelsius.html">Next Page</a><br>
+
+    </div>
+    <div class="link2"> <a href="home.html">Previous Page</a><br>
+    </div>
+    <script>
+        function TemparatureConverter(event) {
+            event.preventDefault();
+            var celsius = document.getElementById('temp').value;
+            var fahrenheit = (1.8 * celsius) + 32;
+            document.getElementById('result').innerHTML = fahrenheit;
+        }
+    </script>
+</body>
+
+</html>
