@@ -50,34 +50,7 @@ body {
 }
 
 
-/* .nav {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 100px;
-    height: auto;
-    background-color: transparent;
-    background: none;
-    z-index: 9999;
-}
 
-.nav img {
-    width: 100%;
-    height: auto;
-}
-
-.btn {
-    background-color: red;
-    margin-left: 600px;
-    border-radius: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-style: none;
-    top: 15px;
-    color: white;
-} */
 
 .navbar {
     padding-top: 1%;
